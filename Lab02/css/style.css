@@ -7,22 +7,57 @@
 
   color:var(--floral);
 
-  margin: 10px;
-
+  font-size: 16px;
 }
 
-body{
+.body__class{
   margin: 0;
 }
 
+/* Header CSS */
 .header__container{
   background-color: var(--taupe);
-  margin: 0;
+  width: 60%;
+  height: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 1rem;
 }
 
+.header__wordmark{
+  display: grid;
+  width: 150px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs{
+  width: 100px;
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--silver);
+  border: 1px solid var(--timber);
+}
+
+.header__tabs{
+  /* width: 20rem; */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 1rem;
+}
+
+/* Carousel CSS */
 .carousel__container{
   background-color: var(--taupe);
 }
+
 
 .title__container{
   background-color: var(--taupe);
@@ -48,7 +83,54 @@ body{
   background-color: var(--taupe);
 }
 
+
+/* footer css */
 .footer__container{
   background-color: var(--taupe);
   margin-top: 10px;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__box{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
+  grid-template-rows: 1fr 2fr;
+}
+
+.author{
+  height: 10rem;
+  grid-column: 1/5;
+  grid-row: 1/2;
+  display: grid;
+  justify-content: center;
+}
+.about{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: grid;
+  justify-content: center;
+}
+
+.image{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: grid;
+  justify-content: center;
+}
+
+.tweet{
+  grid-column: 3/4;
+  grid-row: 2/3;
+  display: grid;
+  justify-content: center;
+}
+
+.news{
+  grid-column: 4/5;
+  grid-row: 2/3;
+  display: grid;
+  justify-content: center;
 }

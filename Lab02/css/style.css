@@ -1,3 +1,54 @@
 :root{
-  
+  --taupe:#847577;
+  --silver:#A6A2A2;
+  --timber:#CFD2CD;
+  --plat:#E5E6E4;
+  --floral:#FBFBF2;
+
+  color:var(--floral);
+
+  margin: 10px;
+
+}
+
+body{
+  margin: 0;
+}
+
+.header__container{
+  background-color: var(--taupe);
+  margin: 0;
+}
+
+.carousel__container{
+  background-color: var(--taupe);
+}
+
+.title__container{
+  background-color: var(--taupe);
+}
+
+.sector__container{
+  background-color: var(--taupe);
+}
+
+.blog__container{
+  background-color: var(--taupe);
+}
+
+.project__container{
+  background-color: var(--taupe);
+}
+
+.misc__container{
+  background-color: var(--taupe);
+}
+
+.sponsor__container{
+  background-color: var(--taupe);
+}
+
+.footer__container{
+  background-color: var(--taupe);
+  margin-top: 10px;
 }
